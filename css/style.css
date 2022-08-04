@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+}
+.whole{
+    margin: 15px;
+}
+
+.menu {
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+}
+
+.menu a{
+    color: rgb(160, 160, 160);
+}
+.menu a:hover{
+    color: rgb(121, 190, 16);
+    padding-bottom: 4px;
+    border-bottom: 2px solid rgb(121, 190, 16);
+}
+.departments{
+    display: none;
+    box-shadow: 1px 1px 5px rgb(128, 128, 128, 0.3);
+    padding: 15px;
+    background-color: rgb(248, 246, 242, 0.2);
+
+}
+.dropdown:hover .departments{
+    display: grid;
+}
+ .nav, .nav-right, .socials{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .socials a{
+    margin-right: 10px;
+    font-size: 25px;
+    padding: 0;
+   
+    
+ }
+ .fa-square-facebook{
+    color: #4267B2;
+ }
+ .fa-square-instagram{
+    
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        -webkit-background-clip: text;
+        /* Also define standard property for compatibility */
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+ }
+ .fa-square-twitter{
+    color: #1DA1F2;
+ }
+ .fa-square-youtube{
+    color: #FF0000;
+ }
+.goog-te-gadget-simple{
+    border: 0;
+    border-radius: 40px;
+    box-shadow: 1px 1px 7px grey;
+    padding: 3px;
+    margin-top: 7px;
+}
